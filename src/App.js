@@ -1,23 +1,25 @@
 import React from "react";
-import Data from "./SeriesData";
-import Card from "./Card";
+import Slots from "./SlotMachine";
 
 const App = () => {
   return (
     <>
-      <h1 className="heading">Top Netflix Series 2020</h1>
-
-      {Data.map((val) => {
-        // console.log(val);
-        return (
-          <Card
-            key={val.id}
-            imgsrc={val.imgsrc}
-            title={val.title}
-            link={val.link}
-          />
-        );
-      })}
+      <h1 className="heading" style={{ color: "red" }}>
+        {" "}
+        🎰 Slot Machine 🎰{" "}
+      </h1>
+      <div className="slot">
+        {" "}
+        <Slots x={"😊"} y={"😊"} z={"😊"} />
+        <Slots x={"😻 "} y={"😊"} z={"😊"} />
+        <Slots x={"😊"} y={"😻 "} z={"🦇  "} />
+        <Slots x={"😊"} y={"😻 "} z={"🦇  "} />
+        <Slots x={"😊"} y={"😻 "} z={"🦇  "} />
+        <Slots x={"😊"} y={"😊"} z={"😊"} />
+        <Slots x={"😊"} y={"😊"} z={"😊"} />
+        <Slots x={"😊"} y={"😍  "} z={"🛬 "} />
+        <Slots x={"😻"} y={"😻"} z={"😻"} />
+      </div>
     </>
   );
 };

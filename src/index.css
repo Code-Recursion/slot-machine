@@ -12,7 +12,7 @@
   margin: auto;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 3rem;
   margin-bottom: 50px;
   background: #f1f1f1;
@@ -22,41 +22,27 @@
   padding: 20px;
 }
 
-.cards {
-  align-items: end;
-  justify-content: end;
-  padding: 25px;
-  display: inline-block;
-  background: #000;
-  border-radius: 50%;
-  margin: 50px;
-  box-shadow: 8px 9px 13px 2px #383333;
-}
 
-.card {
-  transition: transform 0.1s ease;
-  width: 200px;
-  border: 2px solid blueviolet;
-}
-
-.card .card__img {
-  width: 100%;
-  border-radius:3px;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  transform: scale(1.1);
-}
-
-button {
-  font-weight: 800;
-  background: #c68ce6;
-  text-align: center;
-  margin: 4px auto;
-  left: 30%;
+.slot {
+  background: #ffffff;
   border: 1px solid black;
-  padding: 8px;
-  border-radius: 0.8rem;
-  position: relative;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.output {
+  border: 1px solid black;
+}
+.output p {
+  background: white;
+  font-size: xx-large;
+  padding: 20px 0;
+}
+
+.match {
+  color: rgb(0, 255, 0);
+}
+.notMatch {
+  color: red;
 }
