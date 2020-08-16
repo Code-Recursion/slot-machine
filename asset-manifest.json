@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fcbe62e.chunk.css",
-    "main.js": "/static/js/main.37b8a7dc.chunk.js",
-    "main.js.map": "/static/js/main.37b8a7dc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ec2d9410.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ec2d9410.js.map",
-    "static/js/2.3e2e52e3.chunk.js": "/static/js/2.3e2e52e3.chunk.js",
-    "static/js/2.3e2e52e3.chunk.js.map": "/static/js/2.3e2e52e3.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0b94d064536ff10084cc5f33f2cd044c.js": "/precache-manifest.0b94d064536ff10084cc5f33f2cd044c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2fcbe62e.chunk.css.map": "/static/css/main.2fcbe62e.chunk.css.map",
-    "static/js/2.3e2e52e3.chunk.js.LICENSE.txt": "/static/js/2.3e2e52e3.chunk.js.LICENSE.txt"
+    "main.css": "/slot-machine/static/css/main.2fcbe62e.chunk.css",
+    "main.js": "/slot-machine/static/js/main.37b8a7dc.chunk.js",
+    "main.js.map": "/slot-machine/static/js/main.37b8a7dc.chunk.js.map",
+    "runtime-main.js": "/slot-machine/static/js/runtime-main.077c6a12.js",
+    "runtime-main.js.map": "/slot-machine/static/js/runtime-main.077c6a12.js.map",
+    "static/js/2.3e2e52e3.chunk.js": "/slot-machine/static/js/2.3e2e52e3.chunk.js",
+    "static/js/2.3e2e52e3.chunk.js.map": "/slot-machine/static/js/2.3e2e52e3.chunk.js.map",
+    "index.html": "/slot-machine/index.html",
+    "precache-manifest.26c860bf182e5f7b7713825098ade28c.js": "/slot-machine/precache-manifest.26c860bf182e5f7b7713825098ade28c.js",
+    "service-worker.js": "/slot-machine/service-worker.js",
+    "static/css/main.2fcbe62e.chunk.css.map": "/slot-machine/static/css/main.2fcbe62e.chunk.css.map",
+    "static/js/2.3e2e52e3.chunk.js.LICENSE.txt": "/slot-machine/static/js/2.3e2e52e3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec2d9410.js",
+    "static/js/runtime-main.077c6a12.js",
     "static/js/2.3e2e52e3.chunk.js",
     "static/css/main.2fcbe62e.chunk.css",
     "static/js/main.37b8a7dc.chunk.js"
