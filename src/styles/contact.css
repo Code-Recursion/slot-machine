@@ -1,0 +1,67 @@
+input,
+textarea {
+  background: #f6f6f6 !important;
+}
+
+.btn_send {
+  border: 0.15rem solid #a02dd5;
+  width: fit-content;
+  border-radius: 3rem;
+  padding: 0.2rem 1rem !important;
+  font-size: 1rem;
+  font-size: 1rem;
+  background: #fff;
+  position: relative;
+  top: 1rem;
+}
+
+.btn_send:hover {
+  background: #a02dd5;
+  color: #fff !important;
+}
+
+input,
+textarea {
+  font-size: small !important;
+  color: #000 !important;
+  background: #f1f1f1 !important;
+  border: 0 !important;
+}
+textarea {
+  height: 10rem;
+}
+
+input:focus,
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none !important;
+  border: 1px solid #a02dd5 !important    ;
+  box-shadow: none;
+  outline: none !important;
+  transition: 0.3s ease-in;
+}
+
+input,textarea {
+  outline: none !important  ; 
+  
+}
+
+.btn_send {
+  outline:none !important;
+}
+
+li input{
+  margin-left:1rem;
+}
+
+.active {
+  color:#a02dd5 !important;
+} 
+
+.img-people img{
+  width:100%;
+  /* height:20rem; */
+}

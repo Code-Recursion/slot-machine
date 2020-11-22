@@ -1,25 +1,48 @@
 import React from "react";
-import Slots from "./SlotMachine";
+import { Route, Switch } from "react-router-dom";
+import About from "./About";
+import Contact from "./Contact";
+import Error from "./Error";
+import ActiveCases from "./components/ActiveCases";
+import Nav from "./components/Nav";
+import Symptoms from "./Symptoms";
+import Healthy from "./Healthy";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 
 const App = () => {
   return (
     <>
-      <h1 className="heading" style={{ color: "red" }}>
-        {" "}
-        🎰 Slot Machine 🎰{" "}
-      </h1>
-      <div className="slot">
-        {" "}
-        <Slots x={"😊"} y={"😊"} z={"😊"} />
-        <Slots x={"😻 "} y={"😊"} z={"😊"} />
-        <Slots x={"😊"} y={"😻 "} z={"🦇  "} />
-        <Slots x={"😊"} y={"😻 "} z={"🦇  "} />
-        <Slots x={"😊"} y={"😻 "} z={"🦇  "} />
-        <Slots x={"😊"} y={"😊"} z={"😊"} />
-        <Slots x={"😊"} y={"😊"} z={"😊"} />
-        <Slots x={"😊"} y={"😍  "} z={"🛬 "} />
-        <Slots x={"😻"} y={"😻"} z={"😻"} />
-      </div>
+      <Nav/>
+      <Switch>
+        <Route exact path="/" component={About} />
+        <Route
+          exact
+          path="/about"
+          component={About}
+        />
+        <Route 
+          exact
+          path="/healthy"
+          component={Healthy}
+        />
+        <Route
+          exact
+          path="/active-cases"
+          component={ActiveCases}
+        /> 
+        <Route
+          exact
+          path = "/symptoms"
+          component={Symptoms}
+        />
+        <Route
+          exact
+          path="/contact"
+          component={Contact}
+        />
+        <Route component={Error} />
+      </Switch>
     </>
   );
 };
